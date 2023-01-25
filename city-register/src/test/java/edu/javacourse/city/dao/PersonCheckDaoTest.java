@@ -38,7 +38,7 @@ public class PersonCheckDaoTest {
        pr.setDateOfBirth(LocalDate.of(1997,8,21));
        pr.setStreetCode(1);
        pr.setBuilding("271");
-       pr.setExtension("10");
+
        pr.setApartment("4");
 
        PersonCheckDao dao = new PersonCheckDao();
